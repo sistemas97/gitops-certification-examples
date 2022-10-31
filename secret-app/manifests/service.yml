@@ -7,6 +7,6 @@ spec:
   selector:
     app: gitops-secrets-app
   ports:
-      - nodePort: 31000
-        protocol: TCP
-        port: 8080
+    - nodePort: 31000
+      protocol: TCP
+      port: 8080
